@@ -1,0 +1,1 @@
+export const levelEnum = ['trainee', 'junior', 'middle', 'senior']

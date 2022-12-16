@@ -1,0 +1,39 @@
+.interview {
+    width: fit-content;
+    padding: 10px;
+    border-left: 5px solid #3aafa9;
+    border-top: 5px solid #3aafa9;
+    border-right: 1px solid #17252a;
+    border-bottom: 1px solid #17252a;
+    color: #17252a;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #def2f1;
+}
+
+.interview > div {
+    margin-bottom: 2px;
+}
+
+.interview button {
+    width: 60px;
+    height: 20px;
+    margin: 5px 5px 0 5px;
+    background: #3aafa9;
+    color: #def2f1;
+    cursor: pointer;
+    transition: 300ms color, 300ms background-color;
+    border: none;
+    border-radius: 5px;
+}
+
+.interview button:nth-child(4):hover {
+    color: #f76c6c;
+    background-color: #def2f1;
+}
+
+.interview button:nth-child(5):hover {
+    color: #2e9cca;
+    background-color: #def2f1;
+}
